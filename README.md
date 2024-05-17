@@ -31,7 +31,7 @@ Este projeto foi desenvolvido com o objetivo de montar um portfólio pessoal sim
 Se você tiver alguma dúvida ou sugestão sobre o projeto, sinta-se à vontade para entrar em contato:
 
 - **Nome:** João Vitor de Sá Melo
-- **Email:** [seu.email@dominio.com](mailto:joaovitormelo199@gmail.com)
+- **Email:** [joaovitormelo199@gmail.com](mailto:joaovitormelo199@gmail.com)
 - **LinkedIn:** [João Vitor no LinkedIn](https://www.linkedin.com/in/joaovitormelo7/)
 - **GitHub:** [João Vitor no GitHub](https://github.com/joaovitormelo7)
 
