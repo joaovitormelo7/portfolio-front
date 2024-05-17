@@ -7,7 +7,6 @@ Este é um projeto simples de portfólio pessoal criado para treinar habilidades
 - [Sobre o Projeto](#sobre-o-projeto)
 - [Funcionalidades](#funcionalidades)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Como Utilizar](#como-utilizar)
 - [Contato](#contato)
 
 ## Sobre o Projeto
@@ -26,20 +25,6 @@ Este projeto foi desenvolvido com o objetivo de montar um portfólio pessoal sim
 - HTML5
 - CSS3
 - [Google Fonts - Roboto](https://fonts.google.com/specimen/Roboto)
-
-## Como Utilizar
-
-1. Clone o repositório para sua máquina local usando:
-    ```bash
-    git clone https://github.com/seuusuario/seu-repositorio.git
-    ```
-
-2. Navegue até o diretório do projeto:
-    ```bash
-    cd seu-repositorio
-    ```
-
-3. Abra o arquivo `index.html` em seu navegador preferido.
 
 ## Contato
 
