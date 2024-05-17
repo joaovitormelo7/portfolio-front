@@ -37,4 +37,4 @@ Se você tiver alguma dúvida ou sugestão sobre o projeto, sinta-se à vontade 
 
 ---
 
-Feito com ♥ por João Vitor de Sá Melo.
+Feito rapidamente porém com bastante foco. :satisfied:
