@@ -1,31 +1,69 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-        <title>Portfólio João Vitor</title>
-
-    </head>
-    <body>
-        <header></header>
-        <main>
-
-            <h1>
-                Eleve seu négocio digital com um <strong>Front-End de qualidade</strong>
-            </h1>
-
-                <p>
-                Olá, meu nome é João Vitor de Sá Melo, sou estudante de Sistemas de Informação, desenvolvedor Front-End com especialidade em HTML, CSS e JavaScript
-                estou em busca de muitos desafios para essa área e atualmente estou me especializando também em SQL e TypeScript.
-                </p>
-
-                <a href="https://www.linkedin.com/in/joaovitormelo7/">LinkedIn</a>
-                <a href="https://github.com/joaovitormelo7">GitHub</a>
-                <img src="imagemLinkedin.jpeg" alt="Foto perfil">
-
-        </main>
-        <footer></footer>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio João Vitor</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#projetos">Projetos</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre">
+            <h1>Eleve seu negócio digital com um <strong>Front-End de qualidade</strong></h1>
+            <p>
+                Olá, meu nome é João Vitor de Sá Melo, sou estudante de Sistemas de Informação e desenvolvedor Front-End com especialidade em <strong>HTML, CSS e JavaScript</strong>. Estou em busca de novos desafios nessa área e atualmente estou me especializando também em <strong>SQL e TypeScript</strong>.
+            </p>
+            <a href="https://www.linkedin.com/in/joaovitormelo7/" class="button-primary">LinkedIn</a>
+            <a href="https://github.com/joaovitormelo7" class="button-primary">GitHub</a>
+            <img src="imagemLinkedin.jpeg" alt="Foto perfil" class="profile-pic">
+        </section>
+        <section id="projetos">
+            <h2>Projetos</h2>
+            <div class="project">
+                <h3>Projeto 1</h3>
+                <p>Este é um projeto simples em JavaScript que implementa um minigame de adivinhação de números. O objetivo do jogo é tentar adivinhar o número secreto gerado pelo computador. Tive como objetivo treinar minha lógica em JavaScript e compreender ainda mais o HTML e CSS.</p>
+                <a href="https://game-js-five.vercel.app/" class="button-secondary">Ver Projeto</a>
+            </div>
+            <div class="project">
+                <h3>Projeto 2</h3>
+                <p>Descrição do Projeto 2</p>
+                <a href="#" class="button-secondary">Ver Projeto</a>
+            </div>
+            <div class="project">
+                <h3>Projeto 3</h3>
+                <p>Descrição do Projeto 3</p>
+                <a href="#" class="button-secondary">Ver Projeto</a>
+            </div>
+        </section>
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>SQL</li>
+                <li>TypeScript em aprendizado</li>
+                <li>React</li>
+                <li>Vue.js</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Email: <a href="mailto:joaovitormelo199@gmail.com">joaovitormelo199@gmail.com</a></p>
+        </section>
+        <p>&copy; 2024 João Vitor de Sá Melo. Todos os direitos reservados.</p>
+    </footer>
+</body>
 </html>
