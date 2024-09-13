@@ -4,10 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio João Vitor</title>
+    <!-- Importação de fontes e estilos -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="headerStyle.css">
+    <link rel="stylesheet" href="aboutStyle.css">
+    <link rel="stylesheet" href="projectsStyle.css">
+    <link rel="stylesheet" href="skillStyle.css">
+    <link rel="stylesheet" href="footerStyle.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Cabeçalho com navegação -->
     <header>
         <nav>
             <ul>
@@ -17,45 +24,92 @@
             </ul>
         </nav>
     </header>
+
     <main>
+        <!-- Seção sobre -->
         <section id="sobre">
-            <h1>Alcance o sucesso digital com um <strong>Front-End de alta performance</strong></h1>
-            <p>
-                Olá, meu nome é João Vitor de Sá Melo, sou estudante de Sistemas de Informação e desenvolvedor Front-End com especialidade em <strong>HTML, CSS e JavaScript</strong>. Estou em busca de novos desafios nessa área e atualmente estou me especializando também em <strong>SQL e TypeScript</strong>.
-            </p>
-            <a href="https://www.linkedin.com/in/joaovitormelo7/" class="button-primary">LinkedIn</a>
-            <a href="https://github.com/joaovitormelo7" class="button-primary">GitHub</a>
+            <div class="about-content">
+                <h1>
+                    Alcance o sucesso digital com um <strong>Front-End de alta performance</strong>
+                </h1>
+                <p>
+                    Olá, meu nome é João Vitor de Sá Melo, sou estudante de Sistemas de Informação e desenvolvedor Front-End com especialidade em <strong>HTML, CSS e JavaScript</strong>. Estou em busca de novos desafios nessa área e atualmente estou me especializando também em <strong>SQL e TypeScript</strong>.
+                </p>
+                <div class="about-buttons">
+                    <a href="https://www.linkedin.com/in/joaovitormelo7/" class="button-primary" target="_blank" rel="noopener">LinkedIn</a>
+                    <a href="https://github.com/joaovitormelo7" class="button-primary" target="_blank" rel="noopener">GitHub</a>
+                </div>
+            </div>
             <img src="image/imagemLinkedin.jpeg" alt="Foto perfil" class="profile-pic">
         </section>
         <section id="projetos">
             <h2>Projetos</h2>
-            <div class="project">
-                <h3>Projeto Secret Number</h3>
-                <p>Este é um projeto simples em JavaScript que implementa um minigame de adivinhação de números. O objetivo do jogo é tentar adivinhar o número secreto gerado pelo computador. Tive como objetivo treinar minha lógica em JavaScript e compreender ainda mais o HTML e CSS.</p>
-                <a href="https://game-js-five.vercel.app/" class="button-secondary">Ver Projeto</a>
-            </div>
-            <div class="project">
-                <h3>Projeto Pong-Game em JavaScript</h3>
-                <p>Este é uma implementação simples do clássico jogo Pong usando JavaScript e a biblioteca p5.js. O objetivo deste projeto foi aprofundar mais na questão do JavaScript, melhorar técnicas de programação e melhorar boas práticas de programação através do desenvolvimento de um jogo</p>
-                <a href="https://github.com/joaovitormelo7/pong-game" class="button-secondary">Ver Projeto</a>
-            </div>
-            <div class="project">
-                <h3>Projeto Freeway-Game em JavaScript</h3>
-                <p>Este é um jogo simples criado com JavaScript e p5.js para melhorar sua lógica e domínio do JavaScript. O jogo inclui detecção de colisão, sistema de pontuação, visuais atraentes, música imersiva, controles simples e um nível de dificuldade moderado.</p>
-                <a href="https://github.com/joaovitormelo7/freeway-game" class="button-secondary">Ver Projeto</a>
+            <div class="projects-container">
+                <div class="project">
+                    <img src="projetoImage\4630cb1c-cb5a-4fb8-b0b2-3a8bd7c1aaa8.jfif" alt="Projeto Secret Number">
+                    <h3>Study Timer App TypeScript</h3>
+                    <p>Study Timer App é uma aplicação desenvolvida em TypeScript para auxiliar nos estudos, permitindo a contagem de tempo e a finalização automática das tarefas quando o tempo se esgota. Esta aplicação foi criada com o objetivo de melhorar a produtividade e a gestão do tempo durante as sessões de estudo.</p>
+                    <a href="https://typescript-project-theta.vercel.app/" class="button-secondary">Ver Projeto</a>
+                </div>
+
+               
+                <div class="project">
+                    <img src="projetoImage\secret number.jfif" alt="Projeto Secret Number">
+                    <h3>Projeto Secret Number</h3>
+                    <p>Este é um projeto simples em JavaScript que implementa um minigame de adivinhação de números. O objetivo do jogo é tentar adivinhar o número secreto gerado pelo computador. Tive como objetivo treinar minha lógica em JavaScript e compreender ainda mais o HTML e CSS.</p>
+                    <a href="https://game-js-five.vercel.app/" class="button-secondary">Ver Projeto</a>
+                </div>
+
+               
+                <div class="project">
+                    <img src="projetoImage\ponggame.jfif" alt="Projeto Pong-Game">
+                    <h3>Projeto Pong-Game em JavaScript</h3>
+                    <p>Este é uma implementação simples do clássico jogo Pong usando JavaScript e a biblioteca p5.js. O objetivo deste projeto foi aprofundar mais na questão do JavaScript, melhorar técnicas de programação e boas práticas de programação.</p>
+                    <a href="https://github.com/joaovitormelo7/pong-game" class="button-secondary">Ver Projeto</a>
+                </div>
+
+
+                <div class="project">
+                    <img src="projetoImage\freeway-game.jfif    " alt="Projeto Freeway-Game">
+                    <h3>Projeto Freeway-Game em JavaScript</h3>
+                    <p>Este é um jogo simples criado com JavaScript e p5.js para melhorar sua lógica e domínio do JavaScript. O jogo inclui detecção de colisão, sistema de pontuação, visuais atraentes, música imersiva e controles simples.</p>
+                    <a href="https://github.com/joaovitormelo7/freeway-game" class="button-secondary">Ver Projeto</a>
+                </div>
             </div>
         </section>
+
+        
         <section id="habilidades">
             <h2>Habilidades</h2>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>SQL</li>
-                <li>TypeScript em aprendizado</li>
-            </ul>
+            <div class="skills-container">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <span>SQL</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <span>HTML5</span>
+                </div>
+                <div class="skill">
+                    <i class="fas fa-database"></i>
+                    <span>CSS3</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js-square"></i>
+                    <span>TypeScript</span>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </div>
+            </div>
         </section>
     </main>
+
     <footer>
         <section id="contato">
             <h2>Contato</h2>
@@ -63,5 +117,24 @@
             <p>Telefone: (34) 99162-3892</p>
         </section>
     </footer>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+    const sections = document.querySelectorAll("section");
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add("visible");
+            }
+        });
+    }, {
+        threshold: 0.1
+    });
+
+    sections.forEach(section => {
+        observer.observe(section);
+    });
+});
+
+    </script>
 </body>
 </html>

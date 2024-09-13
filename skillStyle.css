@@ -1,0 +1,76 @@
+/* Estilo da seção Habilidades */
+#habilidades {
+    padding: 40px 20px;
+    background-color: #2c2f33;
+    color: #f4f4f9;
+    text-align: center;
+}
+
+h2 {
+    color: #a3d5ff;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre as habilidades */
+    justify-content: center;
+}
+
+.skill {
+    background-color: #23272a;
+    padding: 15px 20px;
+    border-radius: 10px;
+    width: 200px; /* Largura suficiente para o ícone e o texto */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+    transform: translateY(20px);
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Espaço entre o ícone e o texto */
+}
+
+.skill i {
+    font-size: 2em; /* Tamanho dos ícones */
+    color: #a3d5ff; /* Cor dos ícones */
+}
+
+.skill span {
+    font-size: 1.2em;
+    color: #f4f4f9;
+    flex: 1; /* Permite que o texto ocupe o espaço restante */
+}
+
+/* Animação suave para a entrada das habilidades */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.skill:nth-child(1) {
+    animation: fadeInUp 0.5s ease-out 0.2s forwards;
+}
+.skill:nth-child(2) {
+    animation: fadeInUp 0.5s ease-out 0.4s forwards;
+}
+.skill:nth-child(3) {
+    animation: fadeInUp 0.5s ease-out 0.6s forwards;
+}
+.skill:nth-child(4) {
+    animation: fadeInUp 0.5s ease-out 0.8s forwards;
+}
+.skill:nth-child(5) {
+    animation: fadeInUp 0.5s ease-out 1s forwards;
+}
+.skill:nth-child(6) {
+    animation: fadeInUp 0.5s ease-out 1.2s forwards;
+}

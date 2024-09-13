@@ -1,0 +1,94 @@
+/* Estilo da seção Projetos */
+#projetos {
+    padding: 40px 20px;
+    background-color: #2c2f33;
+    color: #f4f4f9;
+    text-align: center;
+}
+
+h2 {
+    color: #a3d5ff;
+    margin-bottom: 20px;
+    font-size: 2em;
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espaço entre os projetos */
+    justify-content: center;
+}
+
+.project {
+    background-color: #23272a;
+    padding: 20px;
+    border-radius: 10px;
+    width: calc(50% - 20px); /* Ajusta a largura dos projetos para dois por linha */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.4s ease, opacity 0.4s ease;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+.project img {
+    width: 25%; /* Ajusta a imagem para preencher o contêiner do projeto */
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.project h3 {
+    color: #a3d5ff;
+    margin: 10px 0;
+}
+
+.project p {
+    font-size: 1em;
+    margin-bottom: 15px;
+}
+
+.button-secondary {
+    background-color: #7289da;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    text-decoration: none;
+}
+
+.button-secondary:hover {
+    background-color: #99aab5;
+    transform: scale(1.05);
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.project:nth-child(1) {
+    animation: fadeInUp 0.5s ease-out 0.2s forwards;
+}
+.project:nth-child(2) {
+    animation: fadeInUp 0.5s ease-out 0.4s forwards;
+}
+.project:nth-child(3) {
+    animation: fadeInUp 0.5s ease-out 0.6s forwards;
+}
+.project:nth-child(4) {
+    animation: fadeInUp 0.5s ease-out 0.8s forwards;
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+    .project {
+        width: calc(100% - 20px); /* Um projeto por linha em telas menores */
+    }
+}
